@@ -35,9 +35,9 @@ pip install requests
 #### Set these environment variables before running the script:
 
 Variable	Description
-NEWS_API_KEY	Your NewsAPI key
-GMAIL_USER	Your Gmail address
-GMAIL_APP_PASSWORD	Your Gmail App Password
+- NEWS_API_KEY	**Your NewsAPI key**
+- GMAIL_USER	**Your Gmail address**
+- GMAIL_APP_PASSWORD	**Your Gmail App Password**
 
 #### ✅ Important: Gmail requires an App Password, not your normal password.
 
@@ -69,12 +69,12 @@ from_date = only returns articles after this date
 ---
 
 ## 📦 Suggested Project Structure
-newsapi-gmail-notifier/
-│
-├── main.py
-├── SendEmail.py
-├── README.md
-└── requirements.txt
+- newsapi-gmail-notifier/
+- │
+- ├── main.py
+- ├── SendEmail.py
+- ├── README.md
+- └── requirements.txt
 
 ---
 
