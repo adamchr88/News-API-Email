@@ -22,7 +22,7 @@ A simple Python project that fetches the latest news articles from **NewsAPI** u
 - A **NewsAPI key**
 - A **Gmail App Password**
 
-Install the dependency:
+#### Install the dependency:
 
 ```bash
 pip install requests
@@ -32,25 +32,25 @@ pip install requests
 
 ## 🔐 Environment Variables
 
-Set these environment variables before running the script:
+#### Set these environment variables before running the script:
 
 Variable	Description
 NEWS_API_KEY	Your NewsAPI key
 GMAIL_USER	Your Gmail address
 GMAIL_APP_PASSWORD	Your Gmail App Password
 
-✅ Important: Gmail requires an App Password, not your normal password.
+#### ✅ Important: Gmail requires an App Password, not your normal password.
 
 ---
 
 ## ▶️ How to Run
 
-Run your main script:
+#### Run your main script:
 
 python main.py
 
 
-If everything works you should see:
+#### If everything works you should see:
 
 Email sent successfully
 
@@ -80,12 +80,12 @@ newsapi-gmail-notifier/
 
 ## ⚠️ Common Mistake (Fix)
 
-✅ Correct way to load your NewsAPI key:
+#### ✅ Correct way to load your NewsAPI key:
 
 NEWS_API_KEY = os.getenv("NEWS_API_KEY")
 
 
-❌ Incorrect way (this will return None):
+#### ❌ Incorrect way (this will return None):
 
 os.getenv("547469hvj097db1462g89d58ce0916708e169")
 
