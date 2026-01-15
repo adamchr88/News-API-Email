@@ -54,7 +54,7 @@ If everything works you should see:
 
 Email sent successfully
 
-⚙️ Changing the Search Query
+#### ⚙️ Changing the Search Query
 
 Inside main() you can change the keyword and date:
 
